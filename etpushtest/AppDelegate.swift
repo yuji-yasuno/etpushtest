@@ -14,11 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ExactTargetOpenDirectDele
     var window: UIWindow?
 
     #if DEBUG
-        let etAppId = "3c91101b-af42-41d3-a57e-218df1ce85b6"
-        let etAccessToken = "7hwn9yfzkudf6qnzm27dy2ud"
+        let etAppId = "your exacttarget application id for sandbox environment"
+        let etAccessToken = "your exacttarget application access token for sandbox environment"
     #else
-        let etAppId = "ccbcd89b-3f25-435e-a5dc-0ecc29fe4e5c"
-        let etAccessToken = "b6jstebyrbde49zv54jsp8fd"
+        let etAppId = "your exacttarget application id for distribution environment"
+        let etAccessToken = "your exacttarget application access token for distribution environment"
     #endif
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
